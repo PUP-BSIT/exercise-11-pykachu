@@ -8,5 +8,3 @@ def text_to_art():
    
     tprint(user_input)
     cprint("ASCII art generated!", "magenta")
-
-
