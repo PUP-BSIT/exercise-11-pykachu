@@ -1,4 +1,4 @@
-from pykachupackage import bualat
+from pykachupackage import bualat, serquina
 
 def main():
     while True:
@@ -23,6 +23,7 @@ def main():
                 print("\nYou selected salespara module")
             case '5':
                 print("\nYou selected serquina module")
+                serquina.text_to_art()
             case '6':
                 print("Thank you for using the program. Goodbye!")
                 exit()
