@@ -1,4 +1,4 @@
-from pykachupackage import bualat, serquina
+from pykachupackage import besa, bualat, serquina
 
 def main():
     while True:
@@ -10,9 +10,11 @@ def main():
         print("5. serquina module")
         print("6. exit")
         choice = input("Enter your choice: ")
+        
         match choice:
             case '1':
                 print("\nYou selected besa module")
+                besa.show_manila_time()
             case '2':
                 print("\nYou selected bualat module")
                 bualat.hero_num()
@@ -30,4 +32,5 @@ def main():
             case _:
                 print("Invalid choice, please try again.")
 
-main()
+if __name__ == "__main__":
+    main()
