@@ -1,13 +1,8 @@
-import requests 
+from datetime import datetime
+import pytz
 
-def get_quote():
-    url = "https://api.quotable.io/random"
-    response = requests.get(url)
-
-    if response.status_code == 200:
-        data = response.json()
-        quote = data['content']
-        author = data['author']
-        print(f"\n{quote} \n- {author}")
-    else:
-        print("Error: Unable to fetch quote.")
+def show_manila_time():
+    manila = pytz.timezone('Asia/Manila')
+    time_now = datetime.now(manila)
+    print(f"Besa's date and time in Manila, Philippines: {
+            time_now.strftime('%Y-%m-%d %H:%M:%S')}")
