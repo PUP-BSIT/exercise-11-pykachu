@@ -48,7 +48,7 @@ def main():
 
             case '6':
                 # Exit the program
-                print("Thank you for using the program. Goodbye!")
+                print("\nThank you for using the program. Goodbye!")
                 exit()
 
 if __name__ == "__main__":

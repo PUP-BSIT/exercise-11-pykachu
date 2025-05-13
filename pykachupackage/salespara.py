@@ -1,7 +1,7 @@
 import pyjokes
 
 def give_joke():
-    name = input("Enter your name: ")
+    name = input("\nEnter your name: ")
     joke = pyjokes.get_joke()
 
     print(f"\nHello, {name}!")

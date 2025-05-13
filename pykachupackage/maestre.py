@@ -7,7 +7,7 @@ def generate_fake_profile():
     email = fake.email()
     address = fake.address()
 
-    print ("====Profile====")
+    print ("\n===== Profile =====")
     print(f"Name: {name}")
     print(f"Job: {job}")
     print(f"Email: {email}")
