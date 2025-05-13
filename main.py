@@ -1,6 +1,5 @@
 from pykachupackage import besa, bualat, maestre, salespara, serquina
 
-
 def main():
     while True:
         # Main menu
