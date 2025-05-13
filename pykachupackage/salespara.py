@@ -7,4 +7,4 @@ def give_joke():
     print(f"\nHello, {name}!")
     print(f"Here's a joke for you: ")
     print(f"\n {joke}")
-    print (f"\nI hope it made you giggle, {name}! <3 \n")
+    print (f"\nI hope the joke made you giggle, {name}! <3 \n")
