@@ -1,4 +1,4 @@
-from pykachupackage import besa, bualat, serquina
+from pykachupackage import besa, bualat, serquina, maestre
 
 def main():
     while True:
@@ -21,6 +21,7 @@ def main():
                 bualat.hero_name()
             case '3':
                 print("\nYou selected maestre module")
+                maestre.generate_fake_profile()
             case '4':
                 print("\nYou selected salespara module")
             case '5':
